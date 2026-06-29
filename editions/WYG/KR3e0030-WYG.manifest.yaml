@@ -1,0 +1,90 @@
+canonical_identifier: bkk:krp/KR3e0030/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR3e0030/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 全生指迷方
+  date: '2015-08-24 23:05:00.559891'
+  source:
+    repository: kanripo
+    path: KR3e0030
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR3e0030_000-WYG.yaml, hash: 'sha256:54cfa225e51134d51531c8db349477ffac4b61202883975d237f5ccdfcd332e5'}
+  - {seq: 1, filename: KR3e0030_001-WYG.yaml, hash: 'sha256:f7a21878f6a571b7adb46a040847061014283296f606b257701dfe690b787958'}
+  - {seq: 2, filename: KR3e0030_002-WYG.yaml, hash: 'sha256:8c19915e82b594f5daf2899e3718395de7f7ee4a9ffd0b7c0bce645f23516b63'}
+  - {seq: 3, filename: KR3e0030_003-WYG.yaml, hash: 'sha256:c9b529e7023f9a754668b12165b00eb7695fed5201a326deb42d85a2f7c21d51'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3e0030_000-WYG.markers.yaml, hash: 'sha256:fc5f11ebd9d84c528984828a6172487ab08743388b258562acba8186d25e175a'}
+  - {seq: 1, role: markers, filename: assets/KR3e0030_001-WYG.markers.yaml, hash: 'sha256:9c14191a219e75f01d5403896cbe10d4ffa852693881dc81dbbbabed83bcd4b7'}
+  - {seq: 2, role: markers, filename: assets/KR3e0030_002-WYG.markers.yaml, hash: 'sha256:821fda1bfe081b3c1f0fd0ab3f43004b714f7e9669aee91ad57a6388dcd5ba1e'}
+  - {seq: 3, role: markers, filename: assets/KR3e0030_003-WYG.markers.yaml, hash: 'sha256:2b104e47762327c57de8a5784a4eec64bd60288341d33c187d955a826e9eb5fa'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3e0030_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 299
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3e0030_WYG_000-3a
+    span:
+    - body
+    - 299
+    - 542
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3e0030_WYG_000-4a
+    span:
+    - body
+    - 542
+    - 840
+  label: 自序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3e0030_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 4649
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR3e0030_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 5905
+  label: 卷二
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR3e0030_WYG_003-1a
+    span:
+    - body
+    - 0
+    - 4893
+  label: 卷三
+  type: section
+  level: 1
+hash: sha256:e9b6fd3303dcd8ea5de10826fbcabbfb6d1ac05a6e6309e1690851fd967e43b3
